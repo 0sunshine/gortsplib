@@ -451,6 +451,10 @@ func (s *SessionDescription) unmarshalMediaDescription(value string) error {
 
 	// <fmt>...
 	for i := 3; i < len(fields); i++ {
+		//for wasu
+		if fields[2] == "MP2T" && fields[i] == "avc" {
+			fields[i] = "33"
+		}
 		newMediaDesc.MediaName.Formats = append(newMediaDesc.MediaName.Formats, fields[i])
 	}
 
