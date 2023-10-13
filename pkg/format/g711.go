@@ -3,7 +3,7 @@ package format
 import (
 	"github.com/pion/rtp"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format/rtpsimpleaudio"
+	"github.com/0sunshine/gortsplib/pkg/format/rtpsimpleaudio"
 )
 
 // G711 is a RTP format for the G711 codec, encoded with mu-law or A-law.

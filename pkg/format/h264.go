@@ -11,7 +11,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format/rtph264"
+	"github.com/0sunshine/gortsplib/pkg/format/rtph264"
 	"github.com/bluenviron/mediacommon/pkg/codecs/h264"
 )
 

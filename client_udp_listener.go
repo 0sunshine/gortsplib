@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/multicast"
+	"github.com/0sunshine/gortsplib/pkg/multicast"
 )
 
 func int64Ptr(v int64) *int64 {

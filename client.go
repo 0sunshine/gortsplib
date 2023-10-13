@@ -19,17 +19,17 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/auth"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/base"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/bytecounter"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/conn"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/headers"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/liberrors"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/rtptime"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/sdp"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/url"
+	"github.com/0sunshine/gortsplib/pkg/auth"
+	"github.com/0sunshine/gortsplib/pkg/base"
+	"github.com/0sunshine/gortsplib/pkg/bytecounter"
+	"github.com/0sunshine/gortsplib/pkg/conn"
+	"github.com/0sunshine/gortsplib/pkg/description"
+	"github.com/0sunshine/gortsplib/pkg/format"
+	"github.com/0sunshine/gortsplib/pkg/headers"
+	"github.com/0sunshine/gortsplib/pkg/liberrors"
+	"github.com/0sunshine/gortsplib/pkg/rtptime"
+	"github.com/0sunshine/gortsplib/pkg/sdp"
+	"github.com/0sunshine/gortsplib/pkg/url"
 )
 
 // convert an URL into an address, in particular:

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/sdp"
+	"github.com/0sunshine/gortsplib/pkg/format"
+	"github.com/0sunshine/gortsplib/pkg/sdp"
 )
 
 var casesSession = []struct {

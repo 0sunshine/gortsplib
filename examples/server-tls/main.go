@@ -7,10 +7,10 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/0sunshine/gortsplib/v1.0.5"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/base"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format"
+	"github.com/0sunshine/gortsplib"
+	"github.com/0sunshine/gortsplib/pkg/base"
+	"github.com/0sunshine/gortsplib/pkg/description"
+	"github.com/0sunshine/gortsplib/pkg/format"
 )
 
 // This example shows how to

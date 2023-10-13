@@ -3,8 +3,8 @@ package gortsplib
 import (
 	"sync"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/base"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/liberrors"
+	"github.com/0sunshine/gortsplib/pkg/base"
+	"github.com/0sunshine/gortsplib/pkg/liberrors"
 )
 
 type clientReader struct {

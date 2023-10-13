@@ -6,12 +6,12 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/liberrors"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/rtcpreceiver"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/rtcpsender"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/rtplossdetector"
-	"github.com/0sunshine/gortsplib/v1.0.5/pkg/rtpreorderer"
+	"github.com/0sunshine/gortsplib/pkg/format"
+	"github.com/0sunshine/gortsplib/pkg/liberrors"
+	"github.com/0sunshine/gortsplib/pkg/rtcpreceiver"
+	"github.com/0sunshine/gortsplib/pkg/rtcpsender"
+	"github.com/0sunshine/gortsplib/pkg/rtplossdetector"
+	"github.com/0sunshine/gortsplib/pkg/rtpreorderer"
 )
 
 type clientFormat struct {
