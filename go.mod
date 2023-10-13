@@ -1,4 +1,4 @@
-module github.com/0sunshine/gortsplib/v1.0.2
+module github.com/0sunshine/gortsplib
 
 go 1.19
 
