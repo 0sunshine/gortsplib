@@ -7,7 +7,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtpsimpleaudio"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format/rtpsimpleaudio"
 )
 
 // Opus is a RTP format for the Opus codec.

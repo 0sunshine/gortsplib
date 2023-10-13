@@ -7,9 +7,9 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/headers"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/liberrors"
 )
 
 func firstFormat(formats map[uint8]*serverStreamFormat) *serverStreamFormat {

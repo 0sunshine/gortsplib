@@ -1,7 +1,7 @@
 package gortsplib
 
 import (
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
 )
 
 type serverStreamMedia struct {

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
+	"github.com/0sunshine/gortsplib/v1.0.5"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/format"
 	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg4audio"
 	"github.com/pion/rtp"
 )

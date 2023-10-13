@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/base"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/bytecounter"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/conn"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/description"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/liberrors"
+	"github.com/0sunshine/gortsplib/v1.0.5/pkg/url"
 )
 
 func getSessionID(header base.Header) string {
